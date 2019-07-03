@@ -1,0 +1,4 @@
+sass:
+  style: compressed
+font-awesome:
+  assets: true

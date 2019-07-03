@@ -5,6 +5,11 @@ layout: default
 ---
 <img src="/img/photo.jpg" class="photo img-rounded" />
 
+<a href="/pdf/aolshevskiy-cv.pdf" class="pdf-download fa-stack fa-2x">
+  <i class="fas fa-file-pdf fa-stack-2x"></i>
+  <span class="icon-label fa-stack-1x">PDF</span>
+</a>
+
 ## Contact Information
 
 Artyom Olshevskiy

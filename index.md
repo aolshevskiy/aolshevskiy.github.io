@@ -141,7 +141,7 @@ Software Teamlead
   
   Done code review and covered various gaps in architectual design like database schema migration, security, audit logging and performance monitoring/optimization
   
-* **Legals Front Office** is a B2В front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
+* **Legals Front Office** is a B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
   
   Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
   

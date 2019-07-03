@@ -258,5 +258,6 @@ Degree: Specialist(degree in Belarusian state education system between Bachelor 
 ## References
 
 Github: [http://github.com/aolshevskiy](http://github.com/aolshevskiy)
+<br />
 Linkedin: [http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586](http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586)
 

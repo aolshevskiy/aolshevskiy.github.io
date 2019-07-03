@@ -1,0 +1,64 @@
+@media only screen {
+
+    html, body {
+        height: 100%;
+    }
+
+    body {
+	background-color: #FCFFF5;
+    }
+
+    #content {
+	min-height: 100%;
+    }
+
+    .container {
+	width: 900px;
+    }
+
+    .page-container {
+	background-color: white;
+	border: solid #e3e3e3;
+	border-width: 0 1px;
+	padding: 0 20px;
+	width: 858px;
+    }
+
+    .navbar-fixed-top .container {
+	width: 900px;
+    }
+
+    .page {
+	margin: 15px 0;
+    }
+
+    #page-index h1 {
+	font-size: 25px;
+    }
+
+    #page-index a {
+	font-size: 20pt;
+    }
+
+    #page-index li {
+	padding-bottom: 10px;
+    }
+
+    #page-index li div {
+	margin-left: 3px;
+    }
+
+}
+
+#page-cv .photo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+}

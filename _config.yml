@@ -1,6 +1,0 @@
-plugins:
-  - jekyll-font-awesome-sass
-sass:
-  style: compressed
-font-awesome:
-  assets: true

@@ -4,3 +4,6 @@ sass:
   style: compressed
 font-awesome:
   assets: true
+exclude:
+  - .gitignore
+  - Rakefile

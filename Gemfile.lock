@@ -112,6 +112,7 @@ DEPENDENCIES
   jekyll
   jekyll-font-awesome-sass
   jgd
+  rake
   travis
 
 BUNDLED WITH

@@ -1,0 +1,6 @@
+branches:
+  only:
+    - source
+install:
+  - bundle
+script: rake deploy

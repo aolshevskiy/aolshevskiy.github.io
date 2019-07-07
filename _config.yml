@@ -4,8 +4,4 @@ sass:
   style: compressed
 font-awesome:
   assets: true
-exclude:
-  - ".gitignore"
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
+exclude: [".gitignore", "Rakefile", "Gemfile", "Gemfile.lock"]

@@ -5,5 +5,7 @@ sass:
 font-awesome:
   assets: true
 exclude:
-  - .gitignore
+  - ".gitignore"
   - Rakefile
+  - Gemfile
+  - Gemfile.lock

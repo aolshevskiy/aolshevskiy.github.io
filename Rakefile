@@ -1,3 +1,3 @@
-task :deploy do
-  sh "jgd -u git@github.com:aolshevskiy/aolshevskiy.github.io -r source -b master"
+task :travis_deploy do
+  sh "jgd -u http://aolshevskiy:$PASSWORD@github.com/aolshevskiy/aolshevsiy.github.io.git -r source -b master"
 end

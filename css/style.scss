@@ -80,14 +80,6 @@ $fa-font-path: "../assets/fonts/font-awesome/";
     border-width: 0;
 }
 
-// #page-cv h2:before {
-//     margin: 0px -20px 0 -20px;
-//     content: "\a0";
-//     display: block;
-//     line-height: 1px;
-//     border-top: 1px solid #e3e3e3; 
-// }
-
 @media print {
     #page-cv .pdf-download {
         display: none;

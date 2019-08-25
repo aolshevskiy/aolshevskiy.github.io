@@ -4,6 +4,8 @@ branches:
 env:
   global:
     secure: AZCZT2YulI8O+JlntJy7oEXxO/oj3HH9ydaB+7EeU1PwuS9F70H49OwF6di1c5//2YBkO25+7A2XKSXZ5OU50EagehRVJO+qV/N9sNyfbIAmMC397EDjGT0ITnKU0M/xTJsrf/t8WNq+RRNMgERJ2Cb7x8dncMBTQU/EQOndTCM=
+language: ruby
+cache: bundler
 before_install:
   - gem update --system
   - gem install bundler

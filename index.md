@@ -10,7 +10,7 @@ layout: default
   <span class="icon-label fa-stack-1x">PDF</span>
 </a>
 
-## Contact Information
+<h2 class="undecorated">Contact Information</h2>
 
 Artyom Olshevskiy
 

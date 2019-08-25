@@ -38,22 +38,6 @@ $fa-font-path: "../assets/fonts/font-awesome/";
 	margin: 15px 0;
     }
 
-    #page-index h1 {
-	font-size: 25px;
-    }
-
-    #page-index a {
-	font-size: 20pt;
-    }
-
-    #page-index li {
-	padding-bottom: 10px;
-    }
-
-    #page-index li div {
-	margin-left: 3px;
-    }
-
     #page-cv .pdf-download {
         display: block;
         float: right;
@@ -84,11 +68,27 @@ $fa-font-path: "../assets/fonts/font-awesome/";
     margin-right: 10px;
 }
 
-@media print {
-    .navbar {
-        display: none;
-    }
+#page-cv h2 {
+    margin: 15px -20px;
+    padding: 0 20px;
+    border-bottom: 1px solid #e3e3e3; 
+    border-top: 3px solid #C8DBE9;
+}
 
+#page-cv h2.undecorated {
+    margin: 15px 20px;
+    border-width: 0;
+}
+
+// #page-cv h2:before {
+//     margin: 0px -20px 0 -20px;
+//     content: "\a0";
+//     display: block;
+//     line-height: 1px;
+//     border-top: 1px solid #e3e3e3; 
+// }
+
+@media print {
     #page-cv .pdf-download {
         display: none;
     }

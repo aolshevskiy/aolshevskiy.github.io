@@ -10,8 +10,6 @@ layout: default
   <span class="icon-label fa-stack-1x">PDF</span>
 </a>
 
-<h2 class="undecorated">Contact Information</h2>
-
 Artyom Olshevskiy
 
 Email: [artyom.olshevskiy@gmail.com](mailto:artyom.olshevskiy@gmail.com)

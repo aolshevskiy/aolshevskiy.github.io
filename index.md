@@ -167,7 +167,9 @@ Software Teamlead
 
 Fields of Study: Computer Science, Computer Engineering
 
-Degree: Specialist(degree in Belarusian state education system between Bachelor and Master :) )
+Degree: Specialist
+
+<p class="muted">Specialist is a degree in Belarusian state education system between Bachelor and Master :)</p>
 
 ## Skills
 

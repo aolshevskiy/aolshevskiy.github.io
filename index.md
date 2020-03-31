@@ -18,7 +18,7 @@ Email: [artyom.olshevskiy@gmail.com](mailto:artyom.olshevskiy@gmail.com)
 
 ## Qualifications
 
-* 12 solid years in enterprise software engineering
+* 13 solid years in enterprise software engineering
 * Broad knowledge of programming technologies and platforms
 * Strong tech integration skills
 
@@ -144,20 +144,26 @@ Software Teamlead
   Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
   
   I was a locomotive for the project scavenging human resources here and there to get the job done :)
-
-### Non-commercial
-
-* [**xsbt-web-plugin**](http://github.com/JamesEarlDouglas/xsbt-web-plugin) is my port of sbt-web-plugin to new version of sbt(called xsbt during reconsideration of it's API and configuration approaches). xsbt-web-plugin is a plugin for web development used now by pretty much everyone who's doing webdev in Scala
-
-  Ported original plugin in order to play with Lift on new version of sbt. Later reworked it to support multiple context deployments and multiple servers running at the same time which became version 0.2
   
-  I transferred it's maintenance to James since I don't have time to care of it since middle of 2012
+### EPAM Systems
 
-* [**xsbt-proguard-plugin**](http://github.com/adamw/xsbt-proguard-plugin) is a work similar to xsbt-web-plugin. Just wanted a uber jar packaging for xsbt and made it myself
+Belarus
 
-* Taking part in Linux development here and there when something annoys me and I can fix it
+June 2019 - Now
 
-* Maintained some Arch Linux packages(just lost interest in that later)
+Lead Software Engineer
+
+* **Certification Dashboard** is a POC utility project leveraging GCP managed stack.
+
+  Technologies: Spring Boot, PostgreSQL, Kafka, Google Cloud Platform, Google Pub/Sub, Google Cloud Run, Kubernetes, Terraform
+  
+  Implemented Coursera and Credential.net integration for data mining and realtime streaming from corporate Kafka to database over Pub/Sub.
+  
+* **Staffing Desk** is a core part in EPAM ecosystem implementing company hiring and staffing processes. Covers hundreds of staffing business rules exposed as a REST webservice.
+
+  Technologies: Spring Boot, Spring Integration, Activiti BPM, Spring XD, PostgreSQL, Kafka
+  
+  Contributed dozen of new features with a team of 10. Reworked an inherited notification component to reduce complexity and merge into main monorepo.
 
 ## Education
 
@@ -196,7 +202,7 @@ Degree: Specialist
 ### Version control
 
 * Git(My very informed choice of VCS)
-* SVN
+* Subversion
 
 ### General programming
 
@@ -214,6 +220,12 @@ Degree: Specialist
 * Oracle
 * Softcore MongoDB
 
+### Clouds
+
+* Amazon: EC2, S3, Redshift
+* Google Cloud Platform: Professional Cloud Architect
+* Played with Azure
+
 ### *nix
 
 * Permanently using at home and work(running Arch Linux now)
@@ -224,12 +236,11 @@ Degree: Specialist
 
 ### Methodologies
 
-* Waterfall
 * Agile
 * Scrum
 * TDD
 
-### Web frontend
+### Frontend
 
 * JavaScript
 * Pretty good at AngularJS 1
@@ -243,13 +254,6 @@ Degree: Specialist
 ### Ruby
 
 * Ruby is a neat language that I prefer over others when performance and fault tolerance is not a thing
-
-### PHP
-
-* Worked on dozens of projects using custom frameworks and data storage solutions
-* Old Drupal support and customizations
-* Backend and frontend interfaces for gambling software in Codeigniter
-* A lot of Wordpress
 
 ### Languages
 

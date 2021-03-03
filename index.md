@@ -18,7 +18,7 @@ Email: [artyom.olshevskiy@gmail.com](mailto:artyom.olshevskiy@gmail.com)
 
 ## Qualifications
 
-* 13 solid years in enterprise software engineering
+* 14 solid years in enterprise software engineering
 * Broad knowledge of programming technologies and platforms
 * Strong tech integration skills
 
@@ -164,6 +164,12 @@ Lead Software Engineer
   Technologies: Spring Boot, Spring Integration, Activiti BPM, Spring XD, PostgreSQL, Kafka
   
   Contributed dozen of new features with a team of 10. Reworked an inherited notification component to reduce complexity and merge into main monorepo.
+  
+* **Epic Games Friends** is social graph management microservice.
+
+  Technologies: Spring Framework, MongoDB, Redis(Elasticache), AWS, Terraform
+  
+  Owned the service. Contributed handful of features. Coordinated successful release of three major functions.
 
 ## Education
 
@@ -186,7 +192,7 @@ Degree: Specialist
 * Kotlin
 * Project Lombok
 * Hibernate, JPA
-* Spring Boot
+* Spring, Spring Boot
 * Guice for small apps
 * JSF
 * Everything Maven
@@ -203,6 +209,7 @@ Degree: Specialist
 
 * Git(My very informed choice of VCS)
 * Subversion
+* Perforce
 
 ### General programming
 
@@ -218,21 +225,18 @@ Degree: Specialist
 * MySQL(have reasonable optimization experience)
 * PL/SQL(wrote dozen of production-critical stored procedures)
 * Oracle
-* Softcore MongoDB
+* MongoDB
 
 ### Clouds
 
 * Amazon: EC2, S3, Redshift
 * Google Cloud Platform: Professional Cloud Architect
-* Played with Azure
 
 ### *nix
 
-* Permanently using at home and work(running Arch Linux now)
+* Permanently using at home and work(running Debian Linux now)
 * Distributions used a lot(SUSE, Gentoo, FreeBSD, Debian, CentOS, OEL)
 * Prefer my apps wrapped with Docker and Docker Compose for easier DevOps and bootstrap
-* Amazon EC2
-* Scripting and automating my life in Bash and Ruby
 
 ### Methodologies
 
@@ -245,11 +249,10 @@ Degree: Specialist
 * JavaScript
 * Pretty good at AngularJS 1
 * Typescript
-* Not a Frontend ninja, since I'm more about backend development
 
 ### Python
 
-* Medium scripting experience(I sometimes script what's impractical to do in Bash, cause Python is ubiquitios nowadays)
+* Medium scripting experience
 
 ### Ruby
 

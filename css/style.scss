@@ -59,6 +59,10 @@ $fa-font-path: "../assets/fonts/font-awesome/";
         font-weight: bold;
         margin: -20px 0 0 -9px;
     }
+
+    #page-cv .print {
+        display: none;
+    }
 }
 
 #page-cv .photo {
@@ -78,6 +82,10 @@ $fa-font-path: "../assets/fonts/font-awesome/";
 }
 
 @media print {
+    #page-cv .screen {
+        display: none;
+    }
+    
     #page-cv .pdf-download {
         display: none;
     }

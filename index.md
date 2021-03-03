@@ -5,14 +5,15 @@ layout: default
 ---
 <img src="/img/photo.jpg" class="photo img-rounded" />
 
-<a href="/pdf/aolshevskiy-cv.pdf" class="pdf-download fa-stack fa-2x">
+<a href="/pdf/aolshevskiy-cv.pdf" class="screen pdf-download fa-stack fa-2x">
   <i class="fas fa-file-pdf fa-stack-2x"></i>
   <span class="icon-label fa-stack-1x">PDF</span>
 </a>
 
 Artyom Olshevskiy
 
-Email: [artyom.olshevskiy@gmail.com](mailto:artyom.olshevskiy@gmail.com)
+<span class="screen">Email: [artyom.olshevskiy@gmail.com](mailto:artyom.olshevskiy@gmail.com)</span>
+<span class="print">Email: artyom.olshevskiy@gmail.com</span>
 
 <div class="clearfix"></div>
 
@@ -232,7 +233,7 @@ Degree: Specialist
 * Amazon: EC2, S3, Redshift
 * Google Cloud Platform: Professional Cloud Architect
 
-### *nix
+### Linux/BSD
 
 * Permanently using at home and work(running Debian Linux now)
 * Distributions used a lot(SUSE, Gentoo, FreeBSD, Debian, CentOS, OEL)
@@ -269,7 +270,15 @@ Degree: Specialist
 
 ## References
 
+<div class="screen">
 Github: [http://github.com/aolshevskiy](http://github.com/aolshevskiy)
 <br />
 Linkedin: [http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586](http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586)
+</div>
+<div class="print">
+Github: http://github.com/aolshevskiy
+<br />
+Linkedin: http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586
+</div>
+
 

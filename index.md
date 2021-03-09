@@ -271,9 +271,9 @@ Degree: Specialist
 ## References
 
 <div class="screen">
-Github: [http://github.com/aolshevskiy](http://github.com/aolshevskiy)
+Github: <a href="http://github.com/aolshevskiy">http://github.com/aolshevskiy</a>
 <br />
-Linkedin: [http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586](http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586)
+Linkedin: <a href="http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586">http://www.linkedin.com/pub/artyom-olshevskiy/7/458/586</a>
 </div>
 <div class="print">
 Github: http://github.com/aolshevskiy

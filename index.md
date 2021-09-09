@@ -25,38 +25,93 @@ Artyom Olshevskiy
 
 ## Experience
 
-### Oxagile
+### EPAM Systems
 
-Belarus, Minsk
+Belarus/Poland
 
-February 2007 – August 2010
+June 2019 - Now
 
-Junior Software Engineer
+Lead Software Engineer
 
-* **JumpTV.com front and backoffice** The system was based on old version of Drupal with some interesting optimizations(e.g. load lightweight version of Drupal stack for Ajax partials)
+* **Certification Dashboard** is a POC utility project leveraging GCP managed stack.
 
-  Technologies: PHP, Memcached, PostgreSQL, Drupal, SOAP
+  Technologies: Spring Boot, PostgreSQL, Kafka, Google Cloud Platform, Google Pub/Sub, Google Cloud Run, Kubernetes, Terraform
   
-  Our team incorporated new Web 2.0 subscription, geo targeted promotion and handful of other mission critical systems
+  Implemented Coursera and Credential.net integration for data mining and realtime streaming from corporate Kafka to database over Pub/Sub.
+  
+* **Staffing Desk** is a core part in EPAM ecosystem implementing company hiring and staffing processes. Covers hundreds of staffing business rules exposed as a REST webservice.
 
-* **Several niche Magento-based online stores** Mostly html layouts adoption and plugin reconfiguration with some store specific backoffice functions
+  Technologies: Spring Boot, Spring Integration, Activiti BPM, Spring XD, PostgreSQL, Kafka
   
-  Technologies: PHP, MySQL, Magento
+  Contributed dozen of new features with a team of 10. Reworked an inherited notification component to reduce complexity and merge into main monorepo.
   
-  All stores launched and profited
+* **Epic Games Friends** is a social graph management microservice.
 
-* **Boxed online poker solution(originating from and later transferred back to Viaden Media) front and back web interfaces**  CodeIgniter-based using XMLRPC for interactions with standalone engine written in Java
+  Technologies: Spring Framework, MongoDB, Redis(Elasticache), AWS, Terraform
+  
+  Owned the service. Contributed handful of features. Coordinated successful release of three major functions.
 
-  Technologies: PHP, MySQL, CodeIgniter
+* **Epic Games Receipt Validator** is a purchase validation microservice.
+
+  Technologies: Scala, Akka, DynamoDB, Redis, AWS
   
-  We had something like ten simultaneous installs with customizations running at the same time
+  Own the service. Integrated half-dozen of payment platforms in a team of 3 engineers.
   
-  Maintained whole PHP-based substack and most of it's Linux production deployments
+### SoftServe
+
+Ukraine
+
+September 2016 - March 2019
+
+Software Teamlead
+
+* **Smartfridge** is a IOT platform for smart fridges and warehouses. We used Spark Streaming and handful of Spark batch jobs to gather and transform various info(like temperature, humidity and voltage levels) from physical devices for analysis and monitoring. Data(operational in Cassandra and warehouse in Redshift) is then published to SPA Frontend via REST services built in Play Framework.
   
+  Technologies: Scala, Docker/Docker Compose, PostgreSQL, Cassandra, Amazon Redshift, Amazon infrastructure(EC2, S3), Kafka, Apache Spark, Play Framework
+
+  Engineered everything backend. Brought MVP to full scale production requiring minimal routine maintenance.
+
+* **Utilities Billing** is a transaction processing system aimed to be a core for ecosystem of municipal software. Using PostgreSQL as data storage and ElasticSearch for audit logging. Data authoring is done via classic pair of Spring Boot REST backend and Angular 2 SPA frontend. There was a plan to implement transaction processing using Spring Batch as an execution engine and Drools for business logic management, but the project was frozen before the implementation.
+  
+  Technologies: Gradle, Docker/Docker Compose, Java, PostgreSQL, Elasticsearch, Spring Boot, AspectJ, Hibernate 
+  
+  Done general technical coordination, code review and coding mission critical and tricky parts on backend. I built the fundamentals for junior staff to pick up and develop further.
+  
+* **Legals Billing** is all in one solution using existing legacy system as functional blueprint. Has plain old school SQL Server/Spring/SOAP/JSF stack
+  
+  Technologies: Java, SQL Server, Elasticsearch, Spring Framework, AspectJ, Apache CXF, JSF/PrimeFaces
+  
+  Done code review and covered various gaps in architectual design like database schema migration, security, audit logging and performance monitoring/optimization
+  
+* **Legals Front Office** is a B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
+  
+  Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
+  
+  I was a locomotive for the project scavenging human resources here and there to get the job done :)
+
+### Klika Technologies
+
+Belarus
+
+November 2013 - September 2016
+
+Software Teamlead
+
+* **Data Analytics project**(can't mention this project name due to NDA) is a next generation business analytics engine aimed at ease of use and simplicity of UI and configuration. Consists of rich HTML5 browser app and a dozen of Java-based technologies(like Usergrid, Druid and Cassandra) integrated to provide realtime data analytics experience.
+  
+  Technologies: Java, MongoDB, Spring Framework, Druid, Cassandra
+
+  Coordinated a general architectual project vision and engineered backend with deployment in a team of 5 devs and one QA
+
+* **Arago AG Visual Editor** - special purpose IDE for visually editing fairly complex XML entities that define automation knowledge. Built in Angular.js using Bower and Grunt to minimize boilerplate and conventionalize project management.
+  
+  Techonologies: JavaScript, Angular 1, Titan
+
+  Built a dynamic plugin system where you're able to upload a package and add functionality to the system in runtime. Made Angular optimizations for rendering WYSIWYG representation for XML.
 
 ### EPAM Systems
 
-Belarus, Minsk
+Belarus
 
 August 2010 - November 2013
 
@@ -93,85 +148,35 @@ Senior Software Engineer
   Technologies: Java, PostgreSQL, Spring Framework, Struts 2
   
   Worked in a team supporting and implementing support site for Adidas. I rebuilt Jive boxed forum engine to AJAX interactions instead of full page rendering.
-  
-### Klika Technologies
 
-Belarus, Minsk
-
-November 2013 - September 2016
-
-Software Teamlead
-
-* **Data Analytics project**(can't mention this project name due to NDA) is a next generation business analytics engine aimed at ease of use and simplicity of UI and configuration. Consists of rich HTML5 browser app and a dozen of Java-based technologies(like Usergrid, Druid and Cassandra) integrated to provide realtime data analytics experience.
-  
-  Technologies: Java, MongoDB, Spring Framework, Druid, Cassandra
-
-  Coordinated a general architectual project vision and engineered backend with deployment in a team of 5 devs and one QA
-
-* **Arago AG Visual Editor** - special purpose IDE for visually editing fairly complex XML entities that define automation knowledge. Built in Angular.js using Bower and Grunt to minimize boilerplate and conventionalize project management.
-  
-  Techonologies: JavaScript, Angular 1, Titan
-
-  Built a dynamic plugin system where you're able to upload a package and add functionality to the system in runtime. Made Angular optimizations for rendering WYSIWYG representation for XML.
-  
-### SoftServe
-
-Ukraine
-
-September 2016 - March 2019
-
-Software Teamlead
-
-* **Smartfridge** is a IOT platform for smart fridges and warehouses. We used Spark Streaming and handful of Spark batch jobs to gather and transform various info(like temperature, humidity and voltage levels) from physical devices for analysis and monitoring. Data(operational in Cassandra and warehouse in Redshift) is then published to SPA Frontend via REST services built in Play Framework.
-  
-  Technologies: Scala, Docker/Docker Compose, PostgreSQL, Cassandra, Amazon Redshift, Amazon infrastructure(EC2, S3), Kafka, Apache Spark, Play Framework
-
-  Engineered everything backend. Brought MVP to full scale production requiring minimal routine maintenance.
-
-* **Utilities Billing** is a transaction processing system aimed to be a core for ecosystem of municipal software. Using PostgreSQL as data storage and ElasticSearch for audit logging. Data authoring is done via classic pair of Spring Boot REST backend and Angular 2 SPA frontend. There was a plan to implement transaction processing using Spring Batch as an execution engine and Drools for business logic management, but the project was frozen before the implementation.
-  
-  Technologies: Gradle, Docker/Docker Compose, Java, PostgreSQL, Elasticsearch, Spring Boot, AspectJ, Hibernate 
-  
-  Done general technical coordination, code review and coding mission critical and tricky parts on backend. I built the fundamentals for junior staff to pick up and develop further.
-  
-* **Legals Billing** is all in one solution using existing legacy system as functional blueprint. Has plain old school SQL Server/Spring/SOAP/JSF stack
-  
-  Technologies: Java, SQL Server, Elasticsearch, Spring Framework, AspectJ, Apache CXF, JSF/PrimeFaces
-  
-  Done code review and covered various gaps in architectual design like database schema migration, security, audit logging and performance monitoring/optimization
-  
-* **Legals Front Office** is a B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
-  
-  Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
-  
-  I was a locomotive for the project scavenging human resources here and there to get the job done :)
-  
-### EPAM Systems
+### Oxagile
 
 Belarus
 
-June 2019 - Now
+February 2007 – August 2010
 
-Lead Software Engineer
+Junior Software Engineer
 
-* **Certification Dashboard** is a POC utility project leveraging GCP managed stack.
+* **JumpTV.com front and backoffice** The system was based on old version of Drupal with some interesting optimizations(e.g. load lightweight version of Drupal stack for Ajax partials)
 
-  Technologies: Spring Boot, PostgreSQL, Kafka, Google Cloud Platform, Google Pub/Sub, Google Cloud Run, Kubernetes, Terraform
+  Technologies: PHP, Memcached, PostgreSQL, Drupal, SOAP
   
-  Implemented Coursera and Credential.net integration for data mining and realtime streaming from corporate Kafka to database over Pub/Sub.
-  
-* **Staffing Desk** is a core part in EPAM ecosystem implementing company hiring and staffing processes. Covers hundreds of staffing business rules exposed as a REST webservice.
+  Our team incorporated new Web 2.0 subscription, geo targeted promotion and handful of other mission critical systems
 
-  Technologies: Spring Boot, Spring Integration, Activiti BPM, Spring XD, PostgreSQL, Kafka
+* **Several niche Magento-based online stores** Mostly html layouts adoption and plugin reconfiguration with some store specific backoffice functions
   
-  Contributed dozen of new features with a team of 10. Reworked an inherited notification component to reduce complexity and merge into main monorepo.
+  Technologies: PHP, MySQL, Magento
   
-* **Epic Games Friends** is social graph management microservice.
+  All stores launched and profited
 
-  Technologies: Spring Framework, MongoDB, Redis(Elasticache), AWS, Terraform
-  
-  Owned the service. Contributed handful of features. Coordinated successful release of three major functions.
+* **Boxed online poker solution(originating from and later transferred back to Viaden Media) front and back web interfaces**  CodeIgniter-based using XMLRPC for interactions with standalone engine written in Java
 
+  Technologies: PHP, MySQL, CodeIgniter
+  
+  We had something like ten simultaneous installs with customizations running at the same time
+  
+  Maintained whole PHP-based substack and most of it's Linux production deployments
+  
 ## Education
 
 ### Belarusian State University of Informatics and Radioelectronics
@@ -191,9 +196,9 @@ Degree: Specialist
 * Java itself
 * Scala
 * Kotlin
+* Spring, Spring Boot
 * Project Lombok
 * Hibernate, JPA
-* Spring, Spring Boot
 * Guice for small apps
 * JSF
 * Everything Maven
@@ -206,16 +211,9 @@ Degree: Specialist
 * SWT
 * Netty 
 
-### Version control
-
-* Git(My very informed choice of VCS)
-* Subversion
-* Perforce
-
-### General programming
-
-* Test Infected
-* Functional programming: Haskell
+### Native
+* Go for fun and convenience
+* Basic Rust
 
 ### Databases
 
@@ -230,34 +228,24 @@ Degree: Specialist
 
 ### Clouds
 
-* Amazon: EC2, S3, Redshift
-* Google Cloud Platform: Professional Cloud Architect
+* Amazon Web Services
+* Google Cloud Platform: Professional Cloud Architect(19 Sep 2019-2021)
 
 ### Linux/BSD
 
 * Permanently using at home and work(running Debian Linux now)
-* Distributions used a lot(SUSE, Gentoo, FreeBSD, Debian, CentOS, OEL)
-* Prefer my apps wrapped with Docker and Docker Compose for easier DevOps and bootstrap
+* Distributions used a lot: Arch, Gentoo, FreeBSD
 
-### Methodologies
+### Scripting
 
-* Agile
-* Scrum
-* TDD
+* Scripting my errands in Python
+* Resonable knowledge of Ruby
 
 ### Frontend
 
 * JavaScript
 * Pretty good at AngularJS 1
 * Typescript
-
-### Python
-
-* Medium scripting experience
-
-### Ruby
-
-* Ruby is a neat language that I prefer over others when performance and fault tolerance is not a thing
 
 ### Languages
 

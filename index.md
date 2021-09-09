@@ -20,7 +20,7 @@ Artyom Olshevskiy
 ## Qualifications
 
 * 14 solid years in enterprise software engineering
-* Broad knowledge of programming technologies and platforms
+* Broad fundamental knowledge of programming technologies and platforms
 * Strong tech integration skills
 
 ## Experience

@@ -249,7 +249,7 @@ Degree: Specialist
 
 ### Languages
 
-* English(Advanced)
+* English(B2)
 * Russian(Native)
 
 ## Other

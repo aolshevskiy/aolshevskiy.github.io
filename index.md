@@ -7,7 +7,6 @@ layout: default
 
 <a href="/pdf/aolshevskiy-cv.pdf" class="screen pdf-download fa-stack fa-2x">
   <i class="fas fa-file-pdf fa-stack-2x"></i>
-  <span class="icon-label fa-stack-1x">PDF</span>
 </a>
 
 Artyom Olshevskiy

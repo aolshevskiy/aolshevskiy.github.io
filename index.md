@@ -33,29 +33,30 @@ June 2019 - Now
 
 Lead Software Engineer
 
-* **Certification Dashboard** is a POC utility project leveraging GCP managed stack.
+* **Epic Games Receipt Validator** is a purchase validation microservice.
 
-  Technologies: Spring Boot, PostgreSQL, Kafka, Google Cloud Platform, Google Pub/Sub, Google Cloud Run, Kubernetes, Terraform
+  Technologies: Scala, Akka, DynamoDB, Redis, AWS
   
-  Implemented Coursera and Credential.net integration for data mining and realtime streaming from corporate Kafka to database over Pub/Sub.
+  Own the service. Integrated half-dozen of payment platforms in a team of 3 engineers.
+
+* **Epic Games Friends** is a social graph management microservice.
+
+  Technologies: Spring Framework, MongoDB, Redis(Elasticache), AWS, Terraform
+  
+  Owned the service. Contributed handful of features. Coordinated successful release of three major functions.
   
 * **Staffing Desk** is a core part in EPAM ecosystem implementing company hiring and staffing processes. Covers hundreds of staffing business rules exposed as a REST webservice.
 
   Technologies: Spring Boot, Spring Integration, Activiti BPM, Spring XD, PostgreSQL, Kafka
   
   Contributed dozen of new features with a team of 10. Reworked an inherited notification component to reduce complexity and merge into main monorepo.
-  
-* **Epic Games Friends** is a social graph management microservice.
 
-  Technologies: Spring Framework, MongoDB, Redis(Elasticache), AWS, Terraform
-  
-  Owned the service. Contributed handful of features. Coordinated successful release of three major functions.
+* **Certification Dashboard** is a POC utility project leveraging GCP managed stack.
 
-* **Epic Games Receipt Validator** is a purchase validation microservice.
-
-  Technologies: Scala, Akka, DynamoDB, Redis, AWS
+  Technologies: Spring Boot, PostgreSQL, Kafka, Google Cloud Platform, Google Pub/Sub, Google Cloud Run, Kubernetes, Terraform
   
-  Own the service. Integrated half-dozen of payment platforms in a team of 3 engineers.
+  Implemented Coursera and Credential.net integration for data mining and realtime streaming from corporate Kafka to database over Pub/Sub.
+
   
 ### SoftServe
 
@@ -65,11 +66,17 @@ September 2016 - March 2019
 
 Software Teamlead
 
-* **Smartfridge** is a IOT platform for smart fridges and warehouses. We used Spark Streaming and handful of Spark batch jobs to gather and transform various info(like temperature, humidity and voltage levels) from physical devices for analysis and monitoring. Data(operational in Cassandra and warehouse in Redshift) is then published to SPA Frontend via REST services built in Play Framework.
+* **Legals Front Office** is a B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
   
-  Technologies: Scala, Docker/Docker Compose, PostgreSQL, Cassandra, Amazon Redshift, Amazon infrastructure(EC2, S3), Kafka, Apache Spark, Play Framework
+  Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
+  
+  I was a locomotive for the project scavenging human resources here and there to get the job done :)
 
-  Engineered everything backend. Brought MVP to full scale production requiring minimal routine maintenance.
+* **Legals Billing** is all in one solution using existing legacy system as functional blueprint. Has plain old school SQL Server/Spring/SOAP/JSF stack
+  
+  Technologies: Java, SQL Server, Elasticsearch, Spring Framework, AspectJ, Apache CXF, JSF/PrimeFaces
+  
+  Done code review and covered various gaps in architectual design like database schema migration, security, audit logging and performance monitoring/optimization
 
 * **Utilities Billing** is a transaction processing system aimed to be a core for ecosystem of municipal software. Using PostgreSQL as data storage and ElasticSearch for audit logging. Data authoring is done via classic pair of Spring Boot REST backend and Angular 2 SPA frontend. There was a plan to implement transaction processing using Spring Batch as an execution engine and Drools for business logic management, but the project was frozen before the implementation.
   
@@ -77,17 +84,11 @@ Software Teamlead
   
   Done general technical coordination, code review and coding mission critical and tricky parts on backend. I built the fundamentals for junior staff to pick up and develop further.
   
-* **Legals Billing** is all in one solution using existing legacy system as functional blueprint. Has plain old school SQL Server/Spring/SOAP/JSF stack
+* **Smartfridge** is a IOT platform for smart fridges and warehouses. We used Spark Streaming and handful of Spark batch jobs to gather and transform various info(like temperature, humidity and voltage levels) from physical devices for analysis and monitoring. Data(operational in Cassandra and warehouse in Redshift) is then published to SPA Frontend via REST services built in Play Framework.
   
-  Technologies: Java, SQL Server, Elasticsearch, Spring Framework, AspectJ, Apache CXF, JSF/PrimeFaces
-  
-  Done code review and covered various gaps in architectual design like database schema migration, security, audit logging and performance monitoring/optimization
-  
-* **Legals Front Office** is a B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
-  
-  Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
-  
-  I was a locomotive for the project scavenging human resources here and there to get the job done :)
+  Technologies: Scala, Docker/Docker Compose, PostgreSQL, Cassandra, Amazon Redshift, Amazon infrastructure(EC2, S3), Kafka, Apache Spark, Play Framework
+
+  Engineered everything backend. Brought MVP to full scale production requiring minimal routine maintenance.
 
 ### Klika Technologies
 
@@ -97,17 +98,17 @@ November 2013 - September 2016
 
 Software Teamlead
 
-* **Data Analytics project**(can't mention this project name due to NDA) is a next generation business analytics engine aimed at ease of use and simplicity of UI and configuration. Consists of rich HTML5 browser app and a dozen of Java-based technologies(like Usergrid, Druid and Cassandra) integrated to provide realtime data analytics experience.
-  
-  Technologies: Java, MongoDB, Spring Framework, Druid, Cassandra
-
-  Coordinated a general architectual project vision and engineered backend with deployment in a team of 5 devs and one QA
-
 * **Arago AG Visual Editor** - special purpose IDE for visually editing fairly complex XML entities that define automation knowledge. Built in Angular.js using Bower and Grunt to minimize boilerplate and conventionalize project management.
   
   Techonologies: JavaScript, Angular 1, Titan
 
   Built a dynamic plugin system where you're able to upload a package and add functionality to the system in runtime. Made Angular optimizations for rendering WYSIWYG representation for XML.
+
+* **Data Analytics project**(can't mention this project name due to NDA) is a next generation business analytics engine aimed at ease of use and simplicity of UI and configuration. Consists of rich HTML5 browser app and a dozen of Java-based technologies(like Usergrid, Druid and Cassandra) integrated to provide realtime data analytics experience.
+  
+  Technologies: Java, MongoDB, Spring Framework, Druid, Cassandra
+
+  Coordinated a general architectual project vision and engineered backend with deployment in a team of 5 devs and one QA
 
 ### EPAM Systems
 
@@ -117,17 +118,17 @@ August 2010 - November 2013
 
 Senior Software Engineer
 
-* **thedailyshow.com, colbertnation.com, tvland.com sites** A homegrown PHP glue stack integrating various subject area datastores heavily targeted towards media content
-  
-  Technologies: PHP, MongoDB, Redis, MySQL
-  
-  colbertnation.com was rewritten using new version of inhouse PHP framework in pretty tight timeframe, customers were pleased very much
+* **Jive SBS customizations** Jive SBS is a social network engine often used for support and social marketing.  It's a classic Spring/Struts 2/Tomcat stack with some responsive design oriented features like using Closure Templates to reuse view code in server and client side
 
-* **comedycentral.com legacy ATG Dynamo-based frontend and CMS system** ATG Dynamo is a old Java EE implementation that MTV sites relied before starting PHP stack incorporation
-
-  Technologies: Java, JavaEE 5, ATG Dynamo
+  Technologies: Java, PostgreSQL, Spring Framework, Struts 2
   
-  Maintained a comedycentral.com Dynamo instance. Coordinated almost all MTV Dynamo deployments(that eventually appeared to be based on comedycentral artifacts). I successfully coordinated migration form Sybase to MySQL
+  Worked in a team supporting and implementing support site for Adidas. I rebuilt Jive boxed forum engine to AJAX interactions instead of full page rendering.
+
+* **Oracle RTD management interface support** Oracle RTD(Real Time Decisioning) is a prediction engine. It has a container infrastructure for special artifacts that define target prediction model for different business configurations(e.g. insurance agencies or call centers)
+  
+  Technologies: Java, JSF/ADF
+  
+  Our team(3 DEVs, 2 QAs) worked directly with a stakeholder on a web interface for configuring and analyzing these deployments in ADF(a JSF-based framework form Oracle). I personally built and packaged JSF UI components and there client side UI interactions. Also reworked legacy code for app reconfiguration in runtime
 
 * **mate1.com support** Mate1.com is a pretty large dating site(said to be in world top ten dating sites) written in Struts 2 running Tomcat using Hibernate on MySQL for data storage and Kafka/ZooKeeper with Cassandra for storing realtime user activities
   
@@ -137,17 +138,17 @@ Senior Software Engineer
 
   In scope of the project our team implemented some UI-centric features, incorporated bean validation into Hibernate stack and created web service testing framework in Scala based on Dispatch and Specs
 
-* **Oracle RTD management interface support** Oracle RTD(Real Time Decisioning) is a prediction engine. It has a container infrastructure for special artifacts that define target prediction model for different business configurations(e.g. insurance agencies or call centers)
-  
-  Technologies: Java, JSF/ADF
-  
-  Our team(3 DEVs, 2 QAs) worked directly with a stakeholder on a web interface for configuring and analyzing these deployments in ADF(a JSF-based framework form Oracle). I personally built and packaged JSF UI components and there client side UI interactions. Also reworked legacy code for app reconfiguration in runtime
+* **comedycentral.com legacy ATG Dynamo-based frontend and CMS system** ATG Dynamo is a old Java EE implementation that MTV sites relied before starting PHP stack incorporation
 
-* **Jive SBS customizations** Jive SBS is a social network engine often used for support and social marketing.  It's a classic Spring/Struts 2/Tomcat stack with some responsive design oriented features like using Closure Templates to reuse view code in server and client side
-
-  Technologies: Java, PostgreSQL, Spring Framework, Struts 2
+  Technologies: Java, JavaEE 5, ATG Dynamo
   
-  Worked in a team supporting and implementing support site for Adidas. I rebuilt Jive boxed forum engine to AJAX interactions instead of full page rendering.
+  Maintained a comedycentral.com Dynamo instance. Coordinated almost all MTV Dynamo deployments(that eventually appeared to be based on comedycentral artifacts). I successfully coordinated migration form Sybase to MySQL
+  
+* **thedailyshow.com, colbertnation.com, tvland.com sites** A homegrown PHP glue stack integrating various subject area datastores heavily targeted towards media content
+  
+  Technologies: PHP, MongoDB, Redis, MySQL
+  
+  colbertnation.com was rewritten using new version of inhouse PHP framework in pretty tight timeframe, customers were pleased very much
 
 ### Oxagile
 
@@ -157,18 +158,6 @@ February 2007 – August 2010
 
 Junior Software Engineer
 
-* **JumpTV.com front and backoffice** The system was based on old version of Drupal with some interesting optimizations(e.g. load lightweight version of Drupal stack for Ajax partials)
-
-  Technologies: PHP, Memcached, PostgreSQL, Drupal, SOAP
-  
-  Our team incorporated new Web 2.0 subscription, geo targeted promotion and handful of other mission critical systems
-
-* **Several niche Magento-based online stores** Mostly html layouts adoption and plugin reconfiguration with some store specific backoffice functions
-  
-  Technologies: PHP, MySQL, Magento
-  
-  All stores launched and profited
-
 * **Boxed online poker solution(originating from and later transferred back to Viaden Media) front and back web interfaces**  CodeIgniter-based using XMLRPC for interactions with standalone engine written in Java
 
   Technologies: PHP, MySQL, CodeIgniter
@@ -176,7 +165,19 @@ Junior Software Engineer
   We had something like ten simultaneous installs with customizations running at the same time
   
   Maintained whole PHP-based substack and most of it's Linux production deployments
+
+* **Several niche Magento-based online stores** Mostly html layouts adoption and plugin reconfiguration with some store specific backoffice functions
   
+  Technologies: PHP, MySQL, Magento
+  
+  All stores launched and profited
+
+* **JumpTV.com front and backoffice** The system was based on old version of Drupal with some interesting optimizations(e.g. load lightweight version of Drupal stack for Ajax partials)
+
+  Technologies: PHP, Memcached, PostgreSQL, Drupal, SOAP
+  
+  Our team incorporated new Web 2.0 subscription, geo targeted promotion and handful of other mission critical systems
+
 ## Education
 
 ### Belarusian State University of Informatics and Radioelectronics

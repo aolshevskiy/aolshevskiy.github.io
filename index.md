@@ -18,7 +18,7 @@ Artyom Olshevskiy
 
 ## Qualifications
 
-* 15 solid years in enterprise software engineering
+* 16 solid years in enterprise software engineering
 * Broad fundamental knowledge of programming technologies and platforms
 * Strong tech integration skills
 
@@ -32,6 +32,10 @@ June 2019 - Now
 
 Lead Software Engineer
 
+* **Epic Games Ecommerce Module** is a module that powers Fortnite purchases.
+
+  Technologies: Java, Spring Framework, MongoDB, DynamoDB
+  
 * **Epic Games Receipt Validator** is a purchase validation microservice.
 
   Technologies: Scala, Akka, DynamoDB, Redis, AWS

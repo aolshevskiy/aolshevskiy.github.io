@@ -34,7 +34,7 @@ Lead Software Engineer
 
 * **Epic Games Ecommerce Module**
 
-  Technologies: Java, Spring Framework, MongoDB, DynamoDB
+  Technologies: Java, Spring Framework, MongoDB, AWS, DynamoDB
   
   Supporting the module that handles Fortnite purchases on supported platforms(Epic, XBL, PSN)
   
@@ -99,7 +99,7 @@ Software Teamlead
 
   A transaction processing system aimed to be a core for ecosystem of municipal software. Using PostgreSQL as data storage and ElasticSearch for audit logging. Data authoring is done via classic pair of Spring Boot REST backend and Angular 2 SPA frontend. There was a plan to implement transaction processing using Spring Batch as an execution engine and Drools for business logic management, but the project was frozen before the implementation.
   
-  Technologies: Gradle, Docker/Docker Compose, Java, PostgreSQL, Elasticsearch, Spring Boot, AspectJ, Hibernate 
+  Technologies: Java, PostgreSQL, Elasticsearch, Spring Boot, AspectJ, Hibernate 
   
   Done general technical coordination, code review and coding mission critical and tricky parts on backend. I built the fundamentals for junior staff to pick up and develop further.
   
@@ -107,7 +107,7 @@ Software Teamlead
 
   A IOT platform for smart fridges and warehouses. We used Spark Streaming and handful of Spark batch jobs to gather and transform various info(like temperature, humidity and voltage levels) from physical devices for analysis and monitoring. Data(operational in Cassandra and warehouse in Redshift) is then published to SPA Frontend via REST services built in Play Framework.
   
-  Technologies: Scala, Docker/Docker Compose, PostgreSQL, Cassandra, Amazon Redshift, Amazon infrastructure(EC2, S3), Kafka, Apache Spark, Play Framework
+  Technologies: Scala, PostgreSQL, Cassandra, AWS(Redshit, EC2, S3), Kafka, Spark, Play Framework
 
   Engineered everything backend. Brought MVP to full scale production requiring minimal routine maintenance.
 
@@ -270,6 +270,7 @@ Degree: Specialist
 
 ### Clouds
 
+* Obviously Docker and Docker Compose
 * Amazon Web Services
 * Google Cloud Platform: Professional Cloud Architect(19 Sep 2019-2021)
 

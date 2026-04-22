@@ -18,9 +18,9 @@ Artyom Olshevskiy
 
 ## Qualifications
 
-* 16 solid years in enterprise software engineering
-* Broad fundamental knowledge of programming technologies and platforms
-* Strong tech integration skills
+* 19+ years designing and delivering enterprise-grade software across gaming, ecommerce, and data analytics domains
+* Deep expertise in modernizing large-scale distributed systems, with hands-on mastery of JVM/Spring, Scala/Akka, and cloud-native stacks on AWS and GCP
+* Proven technical leader adept at integrating complex platforms, mentoring engineering teams, and driving mission-critical releases
 
 ## Experience
 
@@ -28,23 +28,31 @@ Artyom Olshevskiy
 
 Belarus/Poland
 
-June 2019 - Now
+June 2019 - April 2026
 
 Lead Software Engineer
+
+* **Epic Online Services Receipt Validator Rework**
+
+  A purchase validation microservice enabling Unreal Engine's Ecommerce functions
+
+  Technologies: Java, Spring/Spring Boot, DynamoDB, Redis, AWS, Terraform, Kargo/Argo, Helm
+  
+  Reworked the existing service to Java/Spring stack after Lightbend licensing change which effectively barred Epic from using Akka
 
 * **Epic Games Ecommerce Module**
 
   Technologies: Java, Spring Framework, MongoDB, AWS, DynamoDB
   
-  Supporting the module that handles Fortnite purchases on supported platforms(Epic, XBL, PSN)
+  Supported the module that handles Fortnite purchases on supported platforms(Epic, XBL, PSN)
   
-* **Epic Games Receipt Validator**
+* **Epic Online Services Receipt Validator**
 
   A purchase validation microservice enabling Unreal Engine's Ecommerce functions
 
   Technologies: Scala, Akka, DynamoDB, Redis, AWS, Terraform
   
-  Own the service. Integrated half-dozen of payment platforms in a team of 3 engineers.
+  Owned the service. Integrated half-dozen of payment platforms in a team of 3 engineers.
 
 * **Epic Games Friends**
 
@@ -274,6 +282,13 @@ Degree: Specialist
 * Amazon Web Services
 * Google Cloud Platform: Professional Cloud Architect(19 Sep 2019-2021)
 
+### DevOps
+
+Reasonable experience supporting builds across three generations of CI/DevOps/GitOps paradigms
+  1. Jenkins/Hudson, Shell scripts, Ansible
+  1. Codefresh, Github Actions
+  1. Kargo/Argo, Helm 
+
 ### Linux/BSD
 
 * Permanently using at home and work(running Debian Linux now)
@@ -287,17 +302,12 @@ Degree: Specialist
 ### Frontend
 
 * JavaScript
-* Pretty good at AngularJS 1
 * Typescript
 
 ### Languages
 
 * English(B2)
 * Russian(Native)
-
-## Other
-
-* Marital status: married
 
 ## References
 

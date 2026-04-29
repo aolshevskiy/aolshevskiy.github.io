@@ -89,7 +89,7 @@ Software Teamlead
 
 * **Legals Front Office**
 
-  A B2B front office for system mentioned above. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
+  A B2B front office for system mentioned below. Allows businesses to submit water counter indications to billing system for processing. It's once again Spring Boot 1.x REST backend with Angular 2 SPA frontend with some tricky integrations to billing system, SMS gate and Ukrainian state electronic signature ecosystem.
   
   Technologies: Java, SQL Server, Spring Boot, Project Lombok, AspectJ, Hibernate
   

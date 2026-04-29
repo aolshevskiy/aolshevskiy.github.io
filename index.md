@@ -18,9 +18,9 @@ Artyom Olshevskiy
 
 ## Qualifications
 
-* 19+ years designing and delivering enterprise-grade software across gaming, ecommerce, and data analytics domains
-* Deep expertise in modernizing large-scale distributed systems, with hands-on mastery of JVM/Spring, Scala/Akka, and cloud-native stacks on AWS and GCP
-* Proven technical leader adept at integrating complex platforms, mentoring engineering teams, and driving mission-critical releases
+* 19 solid years in enterprise software engineering
+* Broad fundamental knowledge of programming technologies and platforms
+* Strong tech integration skills
 
 ## Experience
 

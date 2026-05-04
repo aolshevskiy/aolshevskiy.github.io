@@ -86,9 +86,9 @@ Ukraine · September 2016 – March 2019
 
 * **Smartfridge** *(Sep 2016 – Nov 2017)*
 
-  An IoT platform for Nestle cold storage fridges and warehouses: GPS and sensor readings (humidity, temperature, voltage) streamed over GPRS into Kafka, aggregated by Spark Streaming into Redshift, and served to a dashboard via a Play Framework REST API. Stepped up as lead after the original teamlead departed mid-project and brought an existing backend to production.
+  An IoT platform for Nestle cold storage fridges and warehouses — sensor readings streamed via Kafka through Spark Streaming to Redshift and a Play Framework dashboard. Stepped up as lead after the original teamlead departed and brought the backend to production. Contributed core streaming logic: sensor state enrichment, door handling, geolocation processing, and warehouse schema/ETL.
 
-  <span class="muted">Stack:</span> Scala, PostgreSQL, Cassandra, AWS (Redshift, EC2, S3), Kafka, Spark, Play Framework
+  <span class="muted">Stack:</span> Scala, Spark, Spark Streaming, Kafka, PostgreSQL, Cassandra, AWS (Redshift, EC2, S3), Play Framework, Docker
 
 ### Klika Technologies — Lead Software Engineer
 
@@ -137,6 +137,7 @@ Degree: Specialist
 * Java, Scala, Kotlin
 * Spring, Spring Boot, Spring WebFlux
 * Akka (HTTP, Streams, Actors)
+* Play Framework
 * Hibernate, JPA
 * Project Lombok
 * Guice (small apps)

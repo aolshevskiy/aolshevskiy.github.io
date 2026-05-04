@@ -36,9 +36,7 @@ Belarus/Poland · June 2019 – April 2026
 
 * **Epic Games Ecommerce Module** *(Apr 2023 – Aug 2024)*
 
-  The backend module powering Fortnite purchases across Epic, XBL, PSN, and Switch — a large Java monolith originally written by C++ engineers, with its own RPC protocol and Perforce-based workflow. Supported and extended purchase flows across platforms throughout the engagement.
-
-  Also built a standalone SQS archival toolset: an AWS Lambda that drains aged messages from an SQS queue to S3 using a multi-threaded pipeline with Dropwizard Metrics instrumentation, paired with a CLI restore utility that replays archived messages back to SQS with date-range and single-message filtering.
+  The ecommerce backend module powering Fortnite real-money purchases across Epic, XBL, PSN, and Switch. Designed and implemented chargeback/refund flows for Microsoft and PlayStation platforms; supported subscription-based purchase integrations. Also built SQS archival and recovery utilities (Lambda function with multi-threaded pipeline to S3, CLI restore tool with date-range filtering).
 
   <span class="muted">Stack:</span> Java, Spring Framework, MongoDB, AWS (SQS, S3, Lambda)
 
